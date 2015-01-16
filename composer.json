@@ -1,0 +1,7 @@
+{
+	"require": {
+		"smalot/pdfparser": "*",
+		"nlp-tools/nlp-tools": "1.0.*@dev",
+		"agentile/php-stanford-nlp": "dev-master"
+	}
+}

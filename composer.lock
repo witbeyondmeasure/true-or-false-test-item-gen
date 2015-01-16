@@ -1,0 +1,218 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7220f1abcabbe59ca75cf08f66f4d009",
+    "packages": [
+        {
+            "name": "agentile/php-stanford-nlp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agentile/PHP-Stanford-NLP.git",
+                "reference": "51f99f1aaa1c3d5822fe634346b2b4b33a7a6223"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agentile/PHP-Stanford-NLP/zipball/51f99f1aaa1c3d5822fe634346b2b4b33a7a6223",
+                "reference": "51f99f1aaa1c3d5822fe634346b2b4b33a7a6223",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "StanfordNLP": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Gentile",
+                    "email": "asgentile@gmail.com",
+                    "homepage": "http://agentile.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP interface to Stanford NLP Tools",
+            "homepage": "https://github.com/agentile/PHP-Stanford-NLP",
+            "keywords": [
+                "ner",
+                "nlp",
+                "parser",
+                "pos",
+                "stanford"
+            ],
+            "time": "2014-10-18 15:24:25"
+        },
+        {
+            "name": "nlp-tools/nlp-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/angeloskath/php-nlp-tools.git",
+                "reference": "12be6b61858b3054914b2678bc97ea2ebab92064"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/angeloskath/php-nlp-tools/zipball/12be6b61858b3054914b2678bc97ea2ebab92064",
+                "reference": "12be6b61858b3054914b2678bc97ea2ebab92064",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "NlpTools\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Angelos Katharopoulos",
+                    "email": "angelos@yourse.gr"
+                }
+            ],
+            "description": "NlpTools is a set of php 5.3+ classes for beginner to semi advanced natural language processing work.",
+            "keywords": [
+                "machine learning",
+                "nlp"
+            ],
+            "time": "2014-01-30 22:54:02"
+        },
+        {
+            "name": "smalot/pdfparser",
+            "version": "v0.9.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smalot/pdfparser.git",
+                "reference": "b5c4745bff4c83ac4d6018e20e4817186f1310eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smalot/pdfparser/zipball/b5c4745bff4c83ac4d6018e20e4817186f1310eb",
+                "reference": "b5c4745bff4c83ac4d6018e20e4817186f1310eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "tecnick.com/tcpdf": ">=6.0.050"
+            },
+            "require-dev": {
+                "atoum/atoum": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Smalot\\PdfParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastien MALOT",
+                    "email": "sebastien@malot.fr",
+                    "homepage": "http://www.malot.fr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Pdf parser library. Can read and extract information from pdf file.",
+            "homepage": "http://www.pdfparser.org",
+            "time": "2014-07-07 12:22:57"
+        },
+        {
+            "name": "tecnick.com/tcpdf",
+            "version": "6.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tecnickcom/TCPDF.git",
+                "reference": "d7071cbf26ac735f3883afaf895aba4fe394140b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/d7071cbf26ac735f3883afaf895aba4fe394140b",
+                "reference": "d7071cbf26ac735f3883afaf895aba4fe394140b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "fonts",
+                    "config",
+                    "include",
+                    "tcpdf.php",
+                    "tcpdf_parser.php",
+                    "tcpdf_import.php",
+                    "tcpdf_barcodes_1d.php",
+                    "tcpdf_barcodes_2d.php",
+                    "include/tcpdf_colors.php",
+                    "include/tcpdf_filters.php",
+                    "include/tcpdf_font_data.php",
+                    "include/tcpdf_fonts.php",
+                    "include/tcpdf_images.php",
+                    "include/tcpdf_static.php",
+                    "include/barcodes/datamatrix.php",
+                    "include/barcodes/pdf417.php",
+                    "include/barcodes/qrcode.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Nicola Asuni",
+                    "email": "info@tecnick.com",
+                    "homepage": "http://nicolaasuni.tecnick.com"
+                }
+            ],
+            "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+            "homepage": "http://www.tcpdf.org/",
+            "keywords": [
+                "PDFD32000-2008",
+                "TCPDF",
+                "barcodes",
+                "datamatrix",
+                "pdf",
+                "pdf417",
+                "qrcode"
+            ],
+            "time": "2014-12-18 13:36:04"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "nlp-tools/nlp-tools": 20,
+        "agentile/php-stanford-nlp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
